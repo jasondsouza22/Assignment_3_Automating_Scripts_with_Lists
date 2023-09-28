@@ -10,6 +10,5 @@ file_obj = open(file_path, 'r')
 
 lines = (file_obj.readlines())
 
-
 for line in lines:
     print("{}".format(line))
